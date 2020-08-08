@@ -15,6 +15,9 @@ namespace TEditXNA.Terraria
         public static short TileCount = 470;
         public static short SectionCount = 10;
 
+        public const int MaxChests = 8000;
+        public const int MaxSigns = 1000; 
+        
         public static bool[] TileFrameImportant;
 
         private static void SaveV2(World world, BinaryWriter bw)
